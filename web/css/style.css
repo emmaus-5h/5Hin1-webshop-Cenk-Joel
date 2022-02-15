@@ -5,6 +5,7 @@ footer {
   font-size: 12px;
 } 
 
+
 .toast {
     /* dirty: below 'card' button  */
     position: fixed; 
@@ -73,4 +74,3 @@ footer {
   width: 25%;
   float: left;
 }
-
