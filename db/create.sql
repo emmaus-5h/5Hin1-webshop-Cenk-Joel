@@ -26,12 +26,12 @@ create table ratings(
 --
 
 insert into products (name, description, code, price, minuten, rating_id) values ('Parijs', 'Mooie plek, historische bezienswaardigheden.', '816905633-0', 10.5, 60, 1);
-insert into products  (name, description, code, price, minuten, rating_id) values ('Mallorca', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 11, 70, 1);
-insert into products  (name, description, code, price, minuten, rating_id)  values ('Tokyo', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 13.5, 300, 2);
-insert into products  (name, description, code, price, minuten, rating_id)  values ('Marokko', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 13.5, 80, 1);
-insert into products  (name, description, code, price, minuten, rating_id )  values ('Marokko', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 13.5, 80, 1);
-insert into products  (name, description, code, price, minuten, rating_id)  values ('Kiss for Corliss, A (Almost a Bride)', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14, 55, 2);
-insert into products  (name, description, code, price, minuten, rating_id)  values ('Velvet Goldmine', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7', 14, 47, 2);
+insert into products  (name, description, code, price, minuten, rating_id) values ('Mallorca', 'Mallorca is het grootste eiland van de Gymnesen en de Balearen, een eilandengroep in de Middellandse Zee behorende tot Spanje.', '077030122-3', 11, 70, 1);
+insert into products  (name, description, code, price, minuten, rating_id)  values ('Tokyo', 'Tokyo is de moderne hoofdstad van Japan. Het is een metropool waar miljoenen mensen samen leven, werken en consumeren. ', '445924201-X', 13.5, 300, 2);
+insert into products  (name, description, code, price, minuten, rating_id)  values ('New York', 'New York is de grootste stad van de Verenigde Staten van Amerika.', '693155505-7', 13.5, 80, 1);
+insert into products  (name, description, code, price, minuten, rating_id )  values ('Marokko', 'Marokko is een land met een zeer rijke en eeuwenoude geschiedenis. De Marokkaanse bevolking is vredelievend en heeft het moderne leven met de traditionele waarden en normen geïntegreerd.', '693155505-7', 13.5, 80, 1);
+insert into products  (name, description, code, price, minuten, rating_id)  values ('Monaco', 'Het Vorstendom Monaco is een dwergstaat aan de Middellandse Zee, die aan de landzijde geheel omsloten wordt door Frankrijk.', '686928463-6', 14, 55, 2);
+insert into products  (name, description, code, price, minuten, rating_id)  values ('Parijs', 'Parijs is de hoofdstad van Frankrijk. De Franse metropool telt inclusief haar voorsteden meer dan 11 miljoen inwoners, waarmee het één van de grootste steden van Europa is.', '492662523-7', 14, 47, 2);
 
 insert into ratings (name) values ("mooie plek");
 insert into ratings (name) values ("oke");
