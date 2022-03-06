@@ -35,4 +35,4 @@ insert into products  (name, description, code, price, minuten, rating_id)  valu
 
 insert into ratings (name) values ("mooie plek");
 insert into ratings (name) values ("oke");
-insert into ratings (name) values ("niet gaan")
+insert into ratings (name) values ("niet gaan");
