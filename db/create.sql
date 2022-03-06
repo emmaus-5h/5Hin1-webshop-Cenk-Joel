@@ -10,7 +10,8 @@ CREATE TABLE products (
   price NUMERIC(10, 2) ,
   minuten NUMERIC(10),
   rating_id integer,
-  tickets_id integer
+  tickets_id integer,
+  airline_id integer
 );
 create table ratings(
   id integer primary key AUTOINCREMENT,
@@ -21,6 +22,10 @@ create table ratings(
   ticketsinfo TEXT
   );
 
+  CREATE TABLE airlines (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name VARCHAR
+);
 --
 -- populate with data
 --
@@ -45,3 +50,7 @@ insert into ratings (name) values ("niet gaan");
 insert into tickets (ticketsinfo) values ('Out of tickets.');
 insert into tickets (ticketsinfo) values ('Limited amount left');
 insert into tickets (ticketsinfo) values ('tickets Available');
+
+insert into airlines (name) values ('KLM');  
+insert into airlines (name) values ('Qatar airways');  
+insert into airlines (name) values ('etihad airways'); 
